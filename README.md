@@ -179,7 +179,7 @@ function a(){
 
 It is needed to do new line after var declaring and before return.  
 
-### 8 - using spicial chars like _,$
+### 8 - using special chars like _,$
 
 _ and $ does very much decrease code readness.
 Try to use them only when there is not way without them.  
