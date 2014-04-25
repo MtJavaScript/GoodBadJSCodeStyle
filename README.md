@@ -11,6 +11,7 @@ Preface
  5. Good mood when work with good code
  6. Increase level of team
  7. Increase cost of project by flexibility and exensibility
+ 8. Elegant code
 
 Let's start
 --------------------------------------
