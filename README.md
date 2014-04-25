@@ -152,3 +152,28 @@ var arr = [{
 ```
 There are many repos, especially on node.js with that bad code style.  
 This does code not elegant, and copmlex to read.  
+
+### 7 - new line
+
+```javascript
+//Bad
+function a(){
+  var a = 5;
+  console.log(a);
+  return a + 5;
+}
+```
+  
+
+```javascript
+//Good
+function a(){
+  var a = 5;
+  
+  console.log(a);
+  
+  return a + 5;
+}
+```
+
+It is needed to do new line after var declaring.  
