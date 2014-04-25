@@ -3,8 +3,37 @@ Good and bad JavaScript code style
 
 Preface
 --------------------------------------
- Nowadays there are many libs, frameworks, each of them have their own styles, architecture.  
-There is such opinion that good developer should can read any code style and do not pay attention on how it is rewritten.
-In fact it is true, but all libs and frameworks are aiming for better code organization, fast perfomance and some other issues.
-So in fact every project is oriented to good code.
+ What for to write good code  
+ 1. Less time to understand, fix, extend
+ 2. Less time means less money to do project.
+ 3. Less bugs
+ 4. Flexibility, extesibility, comfortability, readness
+ 5. Good mood when work with good code
+ 6. Increase level of team
+ 7. Increase cost of project by flexibility and exensibility
 
+Let's start
+--------------------------------------
+
+###1 - if without brackets
+Everybody who learn in University is studied by C/C++ and learned to write.
+Many old C/C++ books are full of such code.  
+```
+//Bad
+if(n)
+   a = 5;
+```
+This gives  
+1. More bugs easy to do
+   If to do new line, which is almost always needed and forget to add brackets than bugs  
+   that you would search much time.
+2. More time to support and keep in mind do not do bug with new line
+3. A bit decrease readness of code in about 30-50%.
+
+So write this
+```
+//Good
+if(n){
+  a = 5;
+}
+```
