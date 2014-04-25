@@ -17,7 +17,7 @@ Let's start
 --------------------------------------
 
 ###1 - if/for without brackets
-Everybody who learn in University is studied by C/C++ and learned to write.
+Everybody who learnt in University was studied by C/C++ and learned to write code like this.
 Many old C/C++ books are full of such code.  
 ```javascript
 //Bad
@@ -26,7 +26,7 @@ if(n)
 ```
 This gives  
 1. More bugs easy to do
-   If to do new line, which is almost always needed and forget to add brackets than bugs  
+   If to do new line, which is almost always needed and forget to add brackets than bugs appear  
    that you would search much time.  
 2. More time to support and keep in mind do not do bug with new line  
 3. A bit decrease readability.  
@@ -83,7 +83,7 @@ var o = {
 
 ### 3 - ?: - ternary operator
 Try to avoid this operator.  
-When developers starts to code they learn this operator and them get habbit to write it instead of if.  
+When developers starts to code they learn this operator and them get habbit to write it instead of ```if```.  
 Use ternary operator when there is no way to write over if.  
   
 ternary operator does code more complex.
@@ -212,5 +212,4 @@ var MyClass = function(){
 
 P.S.:
 ----------------------------
-At least about 50% of node.js modules are written and bad code style.  
-Many JQuery plugins are in bad style.  
+Many node.js modules and JQuery plugins are written in bad code style.  
