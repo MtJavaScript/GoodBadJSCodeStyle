@@ -117,3 +117,31 @@ var a = 5,
 
 Many vars decrease a bit readability of code.  
 And does code less elegant.
+
+### 6 - Array on several rows. Style to avoid extra comma.
+```javascript
+//Bad
+var arr = [
+   {
+      a: 5,
+      b: 10
+   }
+   ,
+   {
+      a: 10, b: 12
+   }
+   ];
+```
+
+```javascript
+//Good
+var arr = [{
+   a: 5,
+   b: 10
+},{
+   a: 10,
+   b: 12
+}];
+```
+There are many repos, especially on node.js with that bad code style.  
+This does code not elegant, and awful to read.  
