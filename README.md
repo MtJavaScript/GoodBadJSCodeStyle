@@ -177,4 +177,4 @@ function a(){
 }
 ```
 
-It is needed to do new line after var declaring.  
+It is needed to do new line after var declaring and before return.  
