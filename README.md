@@ -83,8 +83,8 @@ var o = {
 
 ### 3 - ?: - ternary operator
 Try to avoid this operator.  
-When developers starts to code they learn this operator and them get habbit to write it instead of ```if```.  
-Use ternary operator when there is no way to write over if.  
+When developers starts to code they learn this operator and than get habbit to write it instead of ```if```.  
+Use ternary operator when there is no way to write over ```if```.  
   
 ternary operator does code more complex.
 
@@ -105,7 +105,7 @@ if(a){
 }
 ```
 
-Equation in if does code more complex
+Equation in ```if``` does code more complex
 
 ### 5 - Many vars
 
@@ -152,7 +152,7 @@ var arr = [{
 }];
 ```
 There are many repos, especially on node.js with that bad code style.  
-This does code not elegant, and copmlex to read.  
+This does code not elegant, and complex to read.  
 
 ### 7 - new line
 
@@ -179,12 +179,12 @@ function a(){
 
 It is needed to do new line after var declaring and before return.  
 
-### 8 - using special chars like _,$
+### 8 - using special chars like ```_,$```
 
-_ and $ does very much decrease code readness.
-Try to use them only when there is not way without them.  
+```_``` and ```$``` does very much decrease code readness.
+Try to use them only when there is no way without them.  
 
-Almost all developers knows that naming function with _ at first means that it is for private.  
+Almost all developers knows that naming function with _ at means that it is for private.  
 But as result code become less readable, so keep it in mind.  
 ```javascript
 //Bad
