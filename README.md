@@ -115,4 +115,5 @@ var a = 5,
     c = 10;
 ```
 
-Many vars decrease a bit readability and comfortability of code.  
+Many vars decrease a bit readability of code.  
+And does code less elegant.
