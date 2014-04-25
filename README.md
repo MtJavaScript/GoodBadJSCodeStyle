@@ -38,7 +38,7 @@ if(n){
 }
 ```
 
-More bad code in this style  
+More bad code in this style
 ```javascript
 for (key in source)
       if (source[key] !== undefined)
