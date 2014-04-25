@@ -184,7 +184,7 @@ It is needed to do new line after var declaring and before return.
 ```_``` and ```$``` does very much decrease code readness.
 Try to use them only when there is no way without them.  
 
-Almost all developers knows that naming function with _ at means that it is for private.  
+Almost all developers knows that naming function with _ means that it is for private.  
 But as result code become less readable, so keep it in mind.  
 ```javascript
 //Bad
