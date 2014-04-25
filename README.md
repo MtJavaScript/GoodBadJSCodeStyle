@@ -25,7 +25,7 @@ if(n)
    a = 5;
 ```
 This gives  
-1. More bugs easy to do
+1. More bugs easy to do  
    If to do new line, which is almost always needed and forget to add brackets than bugs appear  
    that you would search much time.  
 2. More time to support and keep in mind do not do bug with new line  
