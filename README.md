@@ -178,3 +178,39 @@ function a(){
 ```
 
 It is needed to do new line after var declaring and before return.  
+
+### 8 - using spicial chars like _,$
+
+_ and $ does very much decrease code readness.
+Try to use them only when there is not way without them.  
+
+Almost all developers knows that naming function with _ at first means that it is for private.  
+But as result code become less readable, so keep it in mind.  
+```javascript
+//Bad
+var $a = 5,
+    _b = 6;
+    
+this._aDoSomething = function(){
+   
+};
+
+```
+
+### 9 - Naming variables, function, classes.
+```javascript
+//good
+var myVar = 5,
+    doSomething = function(){
+    
+    };
+   
+var MyClass = function(){
+
+};
+```
+
+P.S.:
+----------------------------
+At least about 50% of node.js modules are written and bad code style.  
+Many JQuery plugins are in bad style.  
