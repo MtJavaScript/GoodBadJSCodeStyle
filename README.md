@@ -27,9 +27,9 @@ if(n)
 This gives  
 1. More bugs easy to do
    If to do new line, which is almost always needed and forget to add brackets than bugs  
-   that you would search much time.
-2. More time to support and keep in mind do not do bug with new line
-3. A bit decrease readability of code in about 30-50%.
+   that you would search much time.  
+2. More time to support and keep in mind do not do bug with new line  
+3. A bit decrease readability of code in about 30-50%.  
 
 So write this
 ```javascript
