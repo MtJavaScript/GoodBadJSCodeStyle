@@ -18,7 +18,7 @@ Let's start
 ###1 - if without brackets
 Everybody who learn in University is studied by C/C++ and learned to write.
 Many old C/C++ books are full of such code.  
-```
+```javascript
 //Bad
 if(n)
    a = 5;
@@ -31,7 +31,7 @@ This gives
 3. A bit decrease readability of code in about 30-50%.
 
 So write this
-```
+```javascript
 //Good
 if(n){
   a = 5;
