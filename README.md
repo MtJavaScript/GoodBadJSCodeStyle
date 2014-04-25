@@ -40,7 +40,7 @@ if(n){
 
 ###2 - where to put spaces
 Spaces also can do code or easy or complex
-  
+
 ```javascript
 //Bad
 if (n) {
@@ -53,4 +53,22 @@ if (n) {
 if(n){
    a = 5;
 }
+```
+  
+```javascript
+//Bad
+var o = {
+   load:function() {
+      
+   }
+};
+```
+
+```javascript
+//Good
+var o = {
+   load: function(){
+      
+   }
+};
 ```
