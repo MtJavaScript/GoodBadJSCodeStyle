@@ -37,9 +37,9 @@ if(n){
   a = 5;
 }
 ```
-
 More bad code in this style
 ```javascript
+//Bad
 for (key in source)
       if (source[key] !== undefined)
         target[key] = source[key]
