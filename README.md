@@ -7,7 +7,7 @@ Preface
  1. Less time to understand, fix, extend
  2. Less time means less money to do project.
  3. Less bugs
- 4. Flexibility, extesibility, comfortability, readness
+ 4. Flexibility, extesibility, comfortability, readability
  5. Good mood when work with good code
  6. Increase level of team
  7. Increase cost of project by flexibility and exensibility
@@ -28,7 +28,7 @@ This gives
    If to do new line, which is almost always needed and forget to add brackets than bugs  
    that you would search much time.
 2. More time to support and keep in mind do not do bug with new line
-3. A bit decrease readness of code in about 30-50%.
+3. A bit decrease readability of code in about 30-50%.
 
 So write this
 ```
