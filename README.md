@@ -144,4 +144,4 @@ var arr = [{
 }];
 ```
 There are many repos, especially on node.js with that bad code style.  
-This does code not elegant, and awful to read.  
+This does code not elegant, and copmlex to read.  
