@@ -79,3 +79,23 @@ When developers starts to code they learn this operator and them get habbit to w
 Use ternary operator when there is no way to write over if.  
   
 ternary operator does code more complex.
+
+### 4 - if with equation
+```javascript
+//Bad
+if( a = b = this.getName()){
+
+}
+```
+
+```javascript
+//Good
+a = this.getName();
+b = a;
+if(a){
+
+}
+```
+
+Equation in if does code more complex
+
