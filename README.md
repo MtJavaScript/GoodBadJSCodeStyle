@@ -74,7 +74,7 @@ var o = {
 ```
 
 ### 3 - ?: - ternary operator
-Try to avoid this operator.
+Try to avoid this operator.  
 When developers starts to code they learn this operator and them get habbit to write it instead of if.  
 Use ternary operator when there is no way to write over if.  
   
