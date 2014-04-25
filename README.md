@@ -99,3 +99,20 @@ if(a){
 
 Equation in if does code more complex
 
+### 5 - Many vars
+
+```javascript
+//Bad
+var a = 5;
+var b = 7;
+var c = 10;
+```
+
+```javascript
+//Good
+var a = 5,
+    b = 7,
+    c = 10;
+```
+
+Many vars decrease a bit readability and comfortability of code.  
