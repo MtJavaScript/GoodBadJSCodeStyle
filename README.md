@@ -15,7 +15,7 @@ Preface
 Let's start
 --------------------------------------
 
-###1 - if without brackets
+###1 - if/for without brackets
 Everybody who learn in University is studied by C/C++ and learned to write.
 Many old C/C++ books are full of such code.  
 ```javascript
@@ -36,6 +36,13 @@ So write this
 if(n){
   a = 5;
 }
+```
+
+More bad code in this style  
+```javascript
+for (key in source)
+      if (source[key] !== undefined)
+        target[key] = source[key]
 ```
 
 ###2 - where to put spaces
